@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Chapters</h2>
+      <ul>
+        <li><a href="{{ '/documentation/chapter1' | relative_url }}">Chapter 1</a></li>
+        <li><a href="{{ '/documentation/chapter2' | relative_url }}">Chapter 2</a></li>
+        <li><a href="{{ '/documentation/chapter3' | relative_url }}">Chapter 3</a></li>
+        <li><a href="{{ '/documentation/chapter4' | relative_url }}">Chapter 4</a></li>
+        <li><a href="{{ '/documentation/chapter5' | relative_url }}">Chapter 5</a></li>
+        <!-- Add more chapters as needed -->
+      </ul>
+    </aside>
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+</body>
+</html>
