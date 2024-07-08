@@ -1,9 +1,9 @@
 ---
 layout: documentation
-title: Chapter 1 - Time Series Forecasting in Machine Learning
+title: Section 1 - Time Series Forecasting in Machine Learning
 ---
 
-# Chapter 1: Time Series Forecasting in Machine Learning
+# Section 1: Time Series Forecasting in Machine Learning
 
 Time series forecasting is a crucial aspect of machine learning that focuses on predicting future values based on previously observed values. This chapter covers the fundamentals of time series forecasting, common techniques, and practical applications.
 

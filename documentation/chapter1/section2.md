@@ -1,9 +1,9 @@
 ---
 layout: documentation
-title: Chapter 2 - Natural Language Processing in Machine Learning
+title: Section 2 - Natural Language Processing in Machine Learning
 ---
 
-# Chapter 2: Natural Language Processing in Machine Learning
+# Section 2: Natural Language Processing in Machine Learning
 
 Natural Language Processing (NLP) is a subfield of artificial intelligence that focuses on the interaction between computers and humans through natural language. This chapter covers the fundamentals of NLP, common techniques, and practical applications.
 
